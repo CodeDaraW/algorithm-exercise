@@ -23,9 +23,9 @@
 
 - 在线阅读(由 Gitbook 渲染) <http://algorithm.yuanbin.me>
 - 离线阅读: 推送到GitHub后会触发 travis-ci 的编译，相应的部分编译输出提供 GitHub 和 GitCafe 下载。
-    1. EPUB: [GitHub](https://raw.githubusercontent.com/billryan/algorithm-exercise/deploy/epub/algorithm-ebook_zh-hans.epub), [Gitbook](https://www.gitbook.com/download/epub/book/yuanbin/algorithm?lang=zh-hans), [GitCafe(中国大陆用户适用)](https://gitcafe.com/billryan/algorithm-exercise/raw/deploy/epub/algorithm-ebook_zh-hans.epub) - 适合在 iPhone/iPad/MAC 上离线查看，实测效果极好。
-    2. PDF: [GitHub](https://raw.githubusercontent.com/billryan/algorithm-exercise/deploy/pdf/algorithm-ebook_zh-hans.pdf), [Gitbook](https://www.gitbook.com/download/pdf/book/yuanbin/algorithm?lang=zh-hans), [GitCafe(中国大陆用户适用)](https://gitcafe.com/billryan/algorithm-exercise/raw/deploy/pdf/algorithm-ebook_zh-hans.pdf) - 推荐下载GitHub 和 GitCafe 的版本，Gitbook 官方使用的中文字体有点问题。
-    3. MOBI: [GitHub](https://raw.githubusercontent.com/billryan/algorithm-exercise/deploy/mobi/algorithm-ebook_zh-hans.mobi), [Gitbook](https://www.gitbook.com/download/mobi/book/yuanbin/algorithm?lang=zh-hans), [GitCafe(中国大陆用户适用)](https://gitcafe.com/billryan/algorithm-exercise/raw/deploy/mobi/algorithm-ebook_zh-hans.mobi) - Kindle 专用，未测试，感觉不适合在 Kindle 上看此类书籍，尽管 Kindle 的屏幕对眼睛很好...
+    1. EPUB: [GitHub](https://raw.githubusercontent.com/sign4bill/algorithm-exercise/deploy/epub/algorithm-ebook_zh-hans.epub), [Gitbook](https://www.gitbook.com/download/epub/book/yuanbin/algorithm?lang=zh-hans), [七牛 CDN(中国大陆用户适用)](http://7xojrx.com1.z0.glb.clouddn.com/docs/algorithm-exercise/algorithm-ebook_zh-hans.epub) - 适合在 iPhone/iPad/MAC 上离线查看，实测效果极好。
+    2. PDF: [GitHub](https://raw.githubusercontent.com/sign4bill/algorithm-exercise/deploy/pdf/algorithm-ebook_zh-hans.pdf), [Gitbook](https://www.gitbook.com/download/pdf/book/yuanbin/algorithm?lang=zh-hans), [七牛 CDN(中国大陆用户适用)](http://7xojrx.com1.z0.glb.clouddn.com/docs/algorithm-exercise/algorithm-ebook_zh-hans.pdf) - 推荐下载 GitHub 和 七牛 CDN 的版本，Gitbook 官方使用的中文字体为楷体。
+    3. MOBI: [GitHub](https://raw.githubusercontent.com/sign4bill/algorithm-exercise/deploy/mobi/algorithm-ebook_zh-hans.mobi), [Gitbook](https://www.gitbook.com/download/mobi/book/yuanbin/algorithm?lang=zh-hans), [七牛 CDN(中国大陆用户适用)](http://7xojrx.com1.z0.glb.clouddn.com/docs/algorithm-exercise/algorithm-ebook_zh-hans.mobi) - Kindle 专用，未测试，感觉不适合在 Kindle 上看此类书籍，尽管 Kindle 的屏幕对眼睛很好...
 - Google 站内搜索: `keywords site:algorithm.yuanbin.me`
 - Swiftype 站内搜索: 可使用网页右下方的 `Search this site` 进行站内搜索
 - 微信公众号搜索：此功能预计2016年1月下旬添加，借助 Swiftype 的 API，微信可以仅作为一个查询界面，我个人是不接受把这个文档的内容放在微信这种封闭平台上的。
@@ -79,8 +79,6 @@ Slack 的自助邀请注册功能已启用，访问 <http://slackin4ds-algo.hero
 - [LeetCode题解 - GitBook](https://www.gitbook.com/book/siddontang/leetcode-solution/details) - 题解部分详细，比较容易理解，但题目很不全。
 - [FreeTymeKiyan/LeetCode-Sol-Res](https://github.com/FreeTymeKiyan/LeetCode-Sol-Res) - Clean, Understandable Solutions and Resources on LeetCode Online Judge Algorithms Problems.
 - [soulmachine/leetcode](https://github.com/soulmachine/leetcode) - 含C++和Java两个版本的题解。
-- [Shuatiblog.com](http://www.shuatiblog.com/) - IT，算法及面试。有知识点及类型题总结，特别赞。
-- [ITint5 | 专注于IT面试](http://www.itint5.com/) - 文章质量很高，也有部分公司面试题评测。
 - [Acm之家,专业的ACM学习网站](http://www.acmerblog.com/) - 各类题解
 - [牛客网](http://www.nowcoder.com/) - 国内一个IT求职方面的综合性网站，比较适合想在国内求职的看看。感谢某位美女的推荐 :)
 
@@ -100,3 +98,55 @@ Slack 的自助邀请注册功能已启用，访问 <http://slackin4ds-algo.hero
 - [The Algorithm Design Manual](http://www.amazon.com/exec/obidos/ASIN/1848000693/thealgorithmrepo), 作者还放出了自己上课的视频和slides - [Skiena's Audio Lectures](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)，[The Algorithm Design Manual (豆瓣)](http://book.douban.com/subject/3072383/)
 - 大部头有 *Introduction to Algorithm* 和 TAOCP
 - *Cracking The Coding Interview* - 著名的CTCI(又称CC150)，除了算法数据结构等题以外，还包含OO Design, Database, System Design, Brain Teaser等类型的题目。**准备技术面试的同学一定要看**
+
+## Contribution
+
+- [English](http://algorithm.yuanbin.me/en/index.html) is maintained by [@billryan](https://github.com/billryan)
+- [简体中文](http://algorithm.yuanbin.zh-hans/index.html) is maintained by [@billryan](https://github.com/billryan), [@Shaunwei](https://github.com/Shaunwei)
+- [繁體中文](http://algorithm.yuanbin.me/zh-tw/index.html) is maintained by [@CrossLuna](https://github.com/CrossLuna)
+
+Other contributors can be found in [Contributors to algorithm-exercise](https://github.com/billryan/algorithm-exercise/graphs/contributors)
+
+### Donation
+
+本项目接受捐赠，形式不限，可以买书，可以寄明信片，也可以金额打赏 :)
+
+#### 支付宝
+
+![支付宝打赏](../shared-files/images/alipay_billryan_qr15x15.jpg)
+
+账户名：yuanbin2014(at)gmail.com 金额随意
+
+#### Wechat
+
+![Red Packet](../shared-files/images/wechat_billryan_qr15x15.jpg)
+
+金额随意
+
+#### PayPal
+
+账户名：yuanbin2014(at)gmail.com 金额随意，付款时选择 friends and family
+
+隐私考虑，以下名单隐去了部分个人信息，有些名单若没来得及添加，可私下联系我加上，有些信息和金额因为时间久远可能有误，欢迎指正。
+
+- `taoli***@gmail.com`, 20
+- `张亚*`, 6.66
+- `wen***@126.com`, 20.16
+- `she***@163.com`, 10
+- `孙*`, 20
+- `石*`, 50
+- `文*`, 20
+- `don***@163.com`, 5
+- `129***@qq.com`, 50
+
+所得捐款用于七牛 CDN 流量付费/激励 Contributors 写出更好的内容/购买书籍/西瓜/饮料
+
+## To Do
+
+- [ ] add multiple languages support, currently 繁體中文, 简体中文 are available
+- [x] explore nice writing style
+- [x] add implementations of `Python`, `C++`, `Java` code
+- [x] add time and space complexity analysis
+- [x] summary of basic data structure and algorithm
+- [x] add CSS for online website <http://algorithm.yuanbin.me>
+- [x] add proper Chinese fonts for PDF output
